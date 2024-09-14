@@ -1,8 +1,8 @@
 package peregin.gpv.model
 
 import java.io.{File, InputStream}
-import org.jdesktop.swingx.mapviewer.GeoPosition
 import org.joda.time.DateTime
+import org.jxmapviewer.viewer.GeoPosition
 import peregin.gpv.util.{Io, Logging, SeqUtil, Timed}
 
 import java.time.Instant

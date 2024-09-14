@@ -1,6 +1,6 @@
 package peregin.gpv.gui.gauge
 
-import org.jdesktop.swingx.mapviewer.GeoPosition
+import org.jxmapviewer.viewer.GeoPosition
 import peregin.gpv.format.GpsFormatter
 import peregin.gpv.model.{InputValue, MinMax, Sonda, Telemetry}
 

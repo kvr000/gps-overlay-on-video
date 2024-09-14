@@ -3,7 +3,7 @@ package peregin.gpv.gui
 import java.awt.Image
 import java.io.File
 import javax.swing.ImageIcon
-import org.jdesktop.swingx.mapviewer.DefaultTileFactory
+import org.jxmapviewer.viewer.DefaultTileFactory
 import peregin.gpv.Setup
 import peregin.gpv.gui.map.{AltitudePanel, MapPanel, MapQuestTileFactory, MicrosoftTileFactory}
 import peregin.gpv.model.{Mode, Telemetry}

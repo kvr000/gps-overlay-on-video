@@ -1,7 +1,7 @@
 package peregin.gpv.model
 
 import org.joda.time.DateTime
-import org.jdesktop.swingx.mapviewer.GeoPosition
+import org.jxmapviewer.viewer.GeoPosition
 
 object Sonda {
 

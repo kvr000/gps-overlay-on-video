@@ -1,6 +1,6 @@
 package peregin.gpv.gui.map
 
-import org.jdesktop.swingx.mapviewer.{DefaultTileFactory, TileFactoryInfo}
+import org.jxmapviewer.viewer.{DefaultTileFactory, TileFactoryInfo}
 import MicrosoftTileFactoryInfo._
 
 

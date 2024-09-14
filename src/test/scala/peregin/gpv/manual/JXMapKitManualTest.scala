@@ -1,6 +1,6 @@
 package peregin.gpv.manual
 
-import org.jdesktop.swingx.JXMapKit
+import org.jxmapviewer.JXMapKit
 
 
 object JXMapKitManualTest extends App {

@@ -1,8 +1,8 @@
 package peregin.gpv.model
 
 import org.geotools.referencing.GeodeticCalculator
-import org.jdesktop.swingx.mapviewer.GeoPosition
 import org.joda.time.DateTime
+import org.jxmapviewer.viewer.GeoPosition
 import peregin.gpv.util.{SeqUtil, TimePrinter}
 import peregin.gpv.util.Trigo._
 

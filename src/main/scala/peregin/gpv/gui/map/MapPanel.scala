@@ -1,11 +1,11 @@
 package peregin.gpv.gui.map
 
-import java.awt.{BasicStroke, RenderingHints, Color}
-import java.awt.event.{MouseEvent, MouseAdapter}
+import org.jxmapviewer.painter.Painter
 
-import org.jdesktop.swingx.{JXMapViewer, JXMapKit}
-import org.jdesktop.swingx.mapviewer.GeoPosition
-import org.jdesktop.swingx.painter.Painter
+import java.awt.{BasicStroke, Color, RenderingHints}
+import java.awt.event.{MouseAdapter, MouseEvent}
+import org.jxmapviewer.{JXMapKit, JXMapViewer}
+import org.jxmapviewer.viewer.GeoPosition
 import peregin.gpv.model.Telemetry
 
 import scala.swing._
@@ -19,10 +19,11 @@ class MapPanel extends JXMapKit with Publisher with KnobPainter {
   private var poi: Option[GeoPosition] = None
   private var progress: Option[GeoPosition] = None
 
-  setDefaultProvider(JXMapKit.DefaultProviders.Custom)
+  setDefaultProvider(JXMapKit.DefaultProviders.OpenStreetMaps)
   //setTileFactory(new NasaTileFactory)
   setTileFactory(new MicrosoftTileFactory)
   //setTileFactory(new MapQuestTileFactory)
+  setTileFactory(new OsmTileFactory)
   setDataProviderCreditShown(true)
   setMiniMapVisible(false)
   setAddressLocation(telemetry.centerGeoPosition)
